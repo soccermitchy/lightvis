@@ -1,0 +1,9 @@
+Makefile
+lib
+obj
+*.make
+*.sln
+*.vcxproj
+*.vcxproj.filters
+.vs
+lightvis/.vs

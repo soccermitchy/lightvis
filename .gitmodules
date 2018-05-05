@@ -1,0 +1,9 @@
+[submodule "native/godot-cpp"]
+	path = native/godot-cpp
+	url = https://github.com/GodotNativeTools/godot-cpp
+[submodule "native/godot_headers"]
+	path = native/godot_headers
+	url = https://github.com/GodotNativeTools/godot_headers
+[submodule "native/libartnet"]
+	path = native/libartnet
+	url = https://github.com/soccermitchy/libartnet
