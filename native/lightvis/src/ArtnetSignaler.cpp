@@ -3,14 +3,14 @@
 
 using namespace godot;
 
-class AcnSignaler : public GodotScript<Reference>
+class ArtnetSignaler : public GodotScript<Reference>
 {
-	GODOT_CLASS(AcnSignaler);
+	GODOT_CLASS(ArtnetSignaler);
 public:
-	AcnSignaler(){}
+	ArtnetSignaler(){}
 	static void _register_methods()
 	{
 		//register_signal<AcnSignaler>("acn_input");
-		
+		register_signal<ArtnetSignaler>("artnet_input");
 	}
 };

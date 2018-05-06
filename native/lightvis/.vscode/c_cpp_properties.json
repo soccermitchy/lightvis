@@ -1,0 +1,97 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceFolder}",
+                "${workspaceFolder}/../godot_headers",
+                "${workspaceFolder}/../godot-cpp/include",
+                "${workspaceFolder}/../libartnet/common"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceFolder}",
+                    "${workspaceFolder}/../godot_headers",
+                    "${workspaceFolder}/../godot-cpp/include",
+                    "${workspaceFolder}/../libartnet/common"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ]
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/../godot_headers",
+                "${workspaceFolder}/../godot-cpp/include",
+                "${workspaceFolder}/../libartnet/common",
+                "/usr/include/c++/7.3.1",
+                "/usr/include/c++/7.3.1/x86_64-pc-linux-gnu",
+                "/usr/include/c++/7.3.1/backward",
+                "/usr/local/include",
+                "/usr/lib/clang/6.0.0/include",
+                "/usr/include"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${workspaceFolder}/../godot_headers",
+                    "${workspaceFolder}/../godot-cpp/include",
+                    "${workspaceFolder}/../libartnet/common",
+                    "/usr/include/c++/7.3.1",
+                    "/usr/include/c++/7.3.1/x86_64-pc-linux-gnu",
+                    "/usr/include/c++/7.3.1/backward",
+                    "/usr/local/include",
+                    "/usr/lib/clang/6.0.0/include",
+                    "/usr/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include",
+                "${workspaceFolder}",
+                "${workspaceFolder}/../godot_headers",
+                "${workspaceFolder}/../godot-cpp/include",
+                "${workspaceFolder}/../libartnet/common"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/*",
+                    "${workspaceFolder}",
+                    "${workspaceFolder}/../godot_headers",
+                    "${workspaceFolder}/../godot-cpp/include",
+                    "${workspaceFolder}/../libartnet/common"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 3
+}
