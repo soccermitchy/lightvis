@@ -10,7 +10,7 @@ public:
 	ArtnetSignaler(){}
 	static void _register_methods()
 	{
-		//register_signal<AcnSignaler>("acn_input");
 		register_signal<ArtnetSignaler>("artnet_input");
+		printf("signal registered\n");
 	}
 };
